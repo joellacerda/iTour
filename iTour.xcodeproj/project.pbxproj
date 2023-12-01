@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C471E262B1A3DC5000541F5 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C471E252B1A3DC5000541F5 /* DestinationListingView.swift */; };
 		3C7519602B167506002CA137 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75195F2B167506002CA137 /* EditDestinationView.swift */; };
 		3CA9CC292B1659F900F11CBE /* iTourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA9CC282B1659F900F11CBE /* iTourApp.swift */; };
 		3CA9CC2B2B1659F900F11CBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA9CC2A2B1659F900F11CBE /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C471E252B1A3DC5000541F5 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
 		3C75195F2B167506002CA137 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
 		3CA9CC252B1659F900F11CBE /* iTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA9CC282B1659F900F11CBE /* iTourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTourApp.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				3CA9CC282B1659F900F11CBE /* iTourApp.swift */,
 				3CA9CC2A2B1659F900F11CBE /* ContentView.swift */,
+				3C471E252B1A3DC5000541F5 /* DestinationListingView.swift */,
 				3CA9CC362B165A1A00F11CBE /* Destination.swift */,
 				3C75195F2B167506002CA137 /* EditDestinationView.swift */,
 				3CA9CC2C2B1659FB00F11CBE /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				3CA9CC292B1659F900F11CBE /* iTourApp.swift in Sources */,
 				3CA9CC372B165A1A00F11CBE /* Destination.swift in Sources */,
 				3C7519602B167506002CA137 /* EditDestinationView.swift in Sources */,
+				3C471E262B1A3DC5000541F5 /* DestinationListingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
