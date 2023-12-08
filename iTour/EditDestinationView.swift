@@ -31,6 +31,7 @@ struct EditDestinationView: View {
                 ForEach(destination.sights) { sight in
                     Text(sight.name)
                 }
+                .onDelete(perform: deleteSight)
 
                 HStack {
                     TextField("Add a new sight in \(destination.name)", text: $newSightName)
@@ -52,13 +53,16 @@ struct EditDestinationView: View {
             newSightName = ""
         }
     }
+    
+    func deleteSight(at indexSet: IndexSet) {
+        destination.sights.remove(atOffsets: indexSet)
+    }
 }
 
 #Preview {
     do {
         let config = ModelConfiguration(isStoredInMemoryOnly: true)
         let container = try ModelContainer(for: Destination.self, configurations: config)
-
         let example = Destination(name: "Example Destination", details: "Example details go here and will automatically expand vertically as they are edited.")
         return EditDestinationView(destination: example)
             .modelContainer(container)
